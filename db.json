@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "userNo": "ibA8T01iT",
+      "id": "test",
+      "pwd": "test",
+      "name": "test"
+    }
+  ],
+  "exhibition": [
+    {
+      "eNo": "skuvz1hdoW",
+      "cat": "free",
+      "eName": "test",
+      "sDate": "2023-01-01",
+      "eDate": "2023-12-31",
+      "thumbNail": "",
+      "info": "test",
+      "img": ""
+    }
+  ],
+  "bookmark": []
+}
