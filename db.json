@@ -1,15 +1,21 @@
 {
   "user": [
     {
-      "userNo": "ibA8T01iT",
+      "userNo": "TGpo7tIrc",
       "id": "test",
       "pwd": "test",
       "name": "test"
+    },
+    {
+      "userNo": "u7MPTAKBm",
+      "id": "test2",
+      "pwd": "test2",
+      "name": "test2"
     }
   ],
-  "exhibition": [
+  "post": [
     {
-      "eNo": "skuvz1hdoW",
+      "eNo": "oK769M4HQ-",
       "cat": "free",
       "eName": "test",
       "sDate": "2023-01-01",
