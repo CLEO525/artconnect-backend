@@ -13,7 +13,10 @@ const login = async (req, res) => {
   const loginUser = db.get("user").find({ id, pwd }).value();
 
   if (!loginUser) {
-    return res.status(401).send({ error: "아이디와 비밀번호를 확인해주세요." });
+    return res.json({
+      loginSuccess: false,
+      error: "아이디와 비밀번호를 확인해주세요.",
+    });
   }
 
   const accessToken = authService.signToken(loginUser.id);
